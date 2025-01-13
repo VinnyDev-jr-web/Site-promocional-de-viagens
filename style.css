@@ -293,6 +293,11 @@ form input{
     border-radius: 10px;
     padding: 20px 15px;
 }
+input{
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+}
 form .data-cadastro input{
     padding: 10px 5px;
     border-color:#000000;
@@ -368,7 +373,7 @@ footer .line-footer{
         display: none;
     }
     .logo-menu{
-        padding:0 25%;
+        padding:0 30%;
         margin-top: -40px;
         text-align: center;
         font-size: 30px;
@@ -379,7 +384,6 @@ footer .line-footer{
         text-align: center;
     }
     .text-inicio h3{
-        padding-left: 1%;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -388,7 +392,12 @@ footer .line-footer{
         display: none;
     }
     /* DESTINOS */
+    .destinos{
+        align-items: center;
+        text-align: center;
+    }
     .destinos p, .destinos h3{
+        padding:0 10%;
         justify-content: space-around;
         padding-left: 4vh;
     }
@@ -417,7 +426,7 @@ footer .line-footer{
     }
 
     .img-cultura img {
-        margin-top: 85%;
+        margin-top: 80%;
         padding-left: 50%;
         max-width: 100px;
         max-height: 100px;
@@ -428,12 +437,9 @@ footer .line-footer{
         text-align: center;
     }
     .dicas p{
-        align-items: center;
-        margin-bottom: 5%;
-        font-size: 3vh;
-        line-height: 3vh;
-        justify-content:space-between;
-        padding: 5vh 3vh;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .botoes-sobre{
         align-items: center;
@@ -449,4 +455,11 @@ footer .line-footer{
         height: 35vh;
     }
     /* RODAPÉ */
+    footer .logo-footer{
+        padding-left: 28%;
+        display: flex;
+        align-items: baseline;
+        color: #ffffff;
+        font-size: 15px;
+    }
 }
