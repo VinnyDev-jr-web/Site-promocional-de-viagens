@@ -35,6 +35,12 @@ header.rolagem{
 header.rolagem i, header.rolagem h4, header.rolagem a{
     color: #fff;
 }
+header.rolagem .btn-pesquisa{
+    background-color: #fff;
+}
+header.rolagem .img-pesquisa i,header.rolagem .btn-fechar i{
+    color:#111;
+}
 header > .interface{
     display: flex;
     align-items: center;
@@ -59,32 +65,77 @@ header ul{
 header ul li{
     font-size: 15px;
     display: inline-block;
-    padding-right: 14vh;
+    padding-right: 9vh;
 }
 .logo-menu i, .logo-menu h4{
     color: #111;
 } 
 .logo-menu{
+    font-size: 25px;
     display: flex;
     align-items: baseline;
     gap: 20px;
-    margin-right: 30vh;
+    margin-top: -20px;
+    margin-right: 25vh;
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
-.btn-menu button{
-    cursor: pointer;
-    padding: 10px 20px;
-    margin-left: 20vh;
-    font-size: 20px;
-    border: 0;
-    background-color: #2b56e200;
-}
 .btn-menu a{
     color: #fff;
     font-size: 20px;
+}
+.btn-pesquisa{
+    margin: 10px 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #111;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    position: relative;
+    transition: 0.5s;
+}
+.btn-pesquisa.expanção{
+    width: 300px;
+}
+.img-pesquisa{
+    min-width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.img-pesquisa i{
+    font-size: 20px;
+    color: #fff;
+}
+.box-pesquisa{
+    position: absolute;
+    left: 40px;
+    width: calc(100% -120px);
+    height: 100%;
+    line-height: 30px;
+}
+.box-pesquisa input{
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+}
+.btn-fechar{
+    min-width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn-fechar i{
+    font-size: 20px;
+    color: #fff;
 }
 /* ESLITO INICIO */
 section.inicio{
